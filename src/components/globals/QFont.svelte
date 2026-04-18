@@ -101,4 +101,10 @@
 		src: url('/src/lib/assets/fonts/Inter/Inter-ThinItalic-BETA.otf');
 		font-family: Inter Thin Italic;
 	}
+
+	/* PROPAGANDA */
+	@font-face {
+		src: url('/src/lib/assets/fonts/Propaganda/propaganda.ttf');
+		font-family: Propaganda;
+	}
 </style>
