@@ -1,8 +1,6 @@
 <script>
 	import Button from '@/components/ui/Button.svelte';
-	import Brand from '@/lib/assets/images/qbot-brand.svg';
-	import TLeft from '@/lib/assets/images/triangle-left.svg';
-	import TRight from '@/lib/assets/images/triangle-right.svg';
+	import Brand from '@/lib/assets/images/qbot-brand.png';
 </script>
 
 <main class="responsive no-padding">
