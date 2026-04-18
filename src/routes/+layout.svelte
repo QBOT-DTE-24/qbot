@@ -4,7 +4,7 @@
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
 	import './layout.css';
 	import '@/lib';
-	import favicon from '$lib/assets/qbot-icon.svg';
+	import favicon from '@/lib/assets/qbot-icon.svg';
 	import QColor from '@/components/globals/QColor.svelte';
 	import QFont from '@/components/globals/QFont.svelte';
 

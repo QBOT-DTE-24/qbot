@@ -1,7 +1,8 @@
 <script>
 	import Button from '@/components/ui/Button.svelte';
 	import Brand from '@/lib/assets/images/qbot-brand.svg';
-	import Triangle from '@/lib/assets/images/triangle.svg';
+	import TLeft from '@/lib/assets/images/triangle-left.svg';
+	import TRight from '@/lib/assets/images/triangle-right.svg';
 </script>
 
 <main class="responsive no-padding">
@@ -24,10 +25,12 @@
 	</section>
 
 	<div class="medium-space"></div>
-	<div id="triangle-container">
-		<img src={Triangle} alt="triangle" id="triangle-1" />
-		<img src={Triangle} alt="triangle" id="triangle-2" />
-	</div>
+
+	<div
+		id="chevron"
+		class="absolute inset-0 bg-red-600"
+		style="clip-path: polygon(0% 40%, 50% 100%, 100% 40%, 100% 100%, 0% 100%);"
+	></div>
 </main>
 
 <style>
@@ -59,15 +62,8 @@
 		gap: 2rem;
 	}
 
-	#triangle-container {
-		display: flex;
-		justify-content: center;
-		position: fixed;
+	#chevron {
 		z-index: -1;
-		top: 1;
-		bottom: 0;
-		right: 0;
-		left: 0;
 	}
 
 	@keyframes blink {
