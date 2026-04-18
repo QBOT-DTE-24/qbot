@@ -24,7 +24,6 @@
 	</section>
 
 	<div class="medium-space"></div>
-
 	<div id="triangle-container">
 		<img src={Triangle} alt="triangle" id="triangle-1" />
 		<img src={Triangle} alt="triangle" id="triangle-2" />
@@ -36,6 +35,7 @@
 		position: relative;
 		z-index: 1;
 		background-color: var(--qbot-white);
+		clip-path: fill-box;
 	}
 	h2 {
 		font-family: Bebas Neue Regular;
@@ -60,20 +60,14 @@
 	}
 
 	#triangle-container {
+		display: flex;
+		justify-content: center;
 		position: fixed;
 		z-index: -1;
 		top: 1;
 		bottom: 0;
-	}
-
-	#triangle-1 {
-		position: fixed;
-		transform: translateX(-250px);
-	}
-
-	#triangle-2 {
-		position: relative;
-		transform: translateX(250px);
+		right: 0;
+		left: 0;
 	}
 
 	@keyframes blink {
