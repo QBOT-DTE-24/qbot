@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="300.00003"
+   height="300"
+   viewBox="0 0 79.375007 79.374998"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="qbot-icon.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="qbot-banner.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1">QBOT</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="false"
+     inkscape:export-bgcolor="#ffffff00"
+     inkscape:zoom="0.71891835"
+     inkscape:cx="396.42889"
+     inkscape:cy="110.58279"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="79.375008"
+       height="79.375"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <rect
+     style="display:inline;fill:#000000;fill-opacity:0;stroke-width:0.264583"
+     id="rect1"
+     width="79.375"
+     height="79.375"
+     x="1.3503866e-05"
+     y="2.6813639e-06" />
+  <g
+     inkscape:label="Label"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-129.64582,-44.979165)">
+    <g
+       id="g2"
+       transform="translate(3.704108,-8.9956707)"
+       inkscape:label="Label">
+      <text
+         xml:space="preserve"
+         style="font-size:84.6667px;font-family:Propaganda;-inkscape-font-specification:Propaganda;writing-mode:lr-tb;direction:ltr;fill:#101010;fill-opacity:1;stroke-width:0.264583"
+         x="142.875"
+         y="120.1206"
+         id="text1-7"
+         inkscape:label="Shadow"><tspan
+           sodipodi:role="line"
+           id="tspan1-4"
+           style="font-size:84.6667px;fill:#101010;fill-opacity:1;stroke-width:0.264583"
+           x="142.875"
+           y="120.1206">Q</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:84.6667px;font-family:Propaganda;-inkscape-font-specification:Propaganda;writing-mode:lr-tb;direction:ltr;fill:#fe2424;stroke-width:0.264583"
+         x="137.58342"
+         y="113.7707"
+         id="text1"
+         inkscape:label="Icon"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           style="font-size:84.6667px;stroke-width:0.264583"
+           x="137.58342"
+           y="113.7707">Q</tspan></text>
+    </g>
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:License
+         rdf:about="http://artlibre.org/licence/lal">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+      </cc:License>
+      <cc:Work
+         rdf:about="">
+        <cc:license
+           rdf:resource="http://artlibre.org/licence/lal" />
+        <dc:title>QBOT</dc:title>
+        <dc:date>4/17/2026</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Yerenzter</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Copyleft</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>QBOT-DTE/24</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:identifier>Qubonic Arts &amp; Software, AYCQ.</dc:identifier>
+        <dc:source>QBOT-DTE/24</dc:source>
+        <dc:relation>Self</dc:relation>
+        <dc:language>EN</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>eraya</rdf:li>
+            <rdf:li>qubonic</rdf:li>
+            <rdf:li>qbot</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>QBOT Free Graphics</dc:description>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>QBOT-DTE/24</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
