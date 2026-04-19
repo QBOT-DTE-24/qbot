@@ -10,7 +10,7 @@
 
 <style>
 	p {
-		font-family: Bebas Neue;
+		font-family: Bebas Neue Regular;
 		font-size: 24px;
 		color: var(--qbot-white);
 	}
