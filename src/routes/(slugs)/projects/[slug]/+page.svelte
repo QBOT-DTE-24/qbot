@@ -67,7 +67,7 @@
 	h2,
 	div,
 	p {
-		font-family: Bebas Neue;
+		font-family: Bebas Neue Regular;
 	}
 
 	h1 {
