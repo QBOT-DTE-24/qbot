@@ -8,14 +8,16 @@
 
 <style>
 	button {
-		background-color: var(--qbot-red);
-		color: var(--qbot-white);
+		background-color: var(--qbot-red) !important;
+		color: var(--qbot-white) !important;
 		font-family: Bebas Neue Regular;
 		font-size: 2.4rem;
 		padding: 1rem;
 		border: solid var(--qbot-transparent) 4px;
 		border-radius: 0;
 		box-shadow: 8px 12px 0 var(--qbot-black);
+		word-break: break-all;
+		height: auto;
 	}
 
 	button:hover {
