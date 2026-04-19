@@ -10,7 +10,7 @@
 	description="Privacy and Privacy notice."
 	url="https://qbot24.eu.cc"
 	banner="/img/qbot-banner.png"
-	keywords="qbot, qbot24, qbot dte 24, qbot-dte-24, dte24, dte, quintets, beeam, bayae, beeam/bayae, oteam, the corde dump"
+	keywords="qbot, qbot24, qbot dte 24, qbot-dte-24, dte24, dte, quintets, beeam, bayae, beeam/bayae, oteam, the core dump"
 />
 
 <main class="padding">
@@ -56,6 +56,6 @@
 	}
 
 	h1 {
-		font-family: Bebas Neue;
+		font-family: Bebas Neue Regular;
 	}
 </style>
