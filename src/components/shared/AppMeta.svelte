@@ -9,6 +9,7 @@
 	<meta name="description" content={description} />
 	<meta name="keywords" content={keywords} />
 	<meta name="theme-color" content="#FE2424" />
+	<meta name="application-name" content="QBOT" />
 
 	<!-- FOR SEARCH ENGINE -->
 	<meta itemprop="name" content={title} />
@@ -32,7 +33,7 @@
 	<meta name="twitter:image" content={url} />
 
 	<!-- FAVICON -->
-	<link rel="icon" href={favicon} /><meta name="application-name" content="QBOT" />
+	<link rel="icon" href={favicon} />
 
 	<!-- APP TITLE-->
 	<title>{title}</title>

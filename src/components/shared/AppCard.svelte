@@ -37,7 +37,7 @@
 
 	h2,
 	div {
-		font-family: Bebas Neue;
+		font-family: Bebas Neue Regular;
 	}
 
 	h2 {
