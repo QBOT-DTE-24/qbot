@@ -5,6 +5,18 @@
 	import VectorySlope from '@/components/shared/VectorySlope.svelte';
 	import Button from '@/components/ui/Button.svelte';
 	import Brand from '@/lib/assets/images/qbot-brand.png';
+
+	const toGithub = () => {
+		if (typeof window !== 'undefined') {
+			return 0;
+		}
+	};
+
+	const toFacebook = () => {
+		if (typeof window !== 'undefined') {
+			window.location.href = 'https://facebook.com/qbot.dte24';
+		}
+	};
 </script>
 
 <AppMeta
@@ -60,16 +72,8 @@
 			</div>
 
 			<div class="s12 horizontal center-align grid">
-				<Button
-					text="Github"
-					onclick={() => (window.location = 'https://github.com/qbot-dte-24')}
-					class="s12 m4"
-				/>
-				<Button
-					text="Facebook"
-					onclick={() => (window.location = 'https://facebook.com/qbot.dte24')}
-					class="s12 m4"
-				/>
+				<Button text="Github" onclick={toGithub} class="s12 m4" />
+				<Button text="Facebook" onclick={toFacebook} class="s12 m4" />
 
 				<Button text="Privacy & Policy" onclick={() => goto('/privacy')} class="s12 m4" />
 			</div>

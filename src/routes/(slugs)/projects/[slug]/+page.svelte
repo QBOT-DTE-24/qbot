@@ -3,6 +3,12 @@
 	import Button from '@/components/ui/Button.svelte';
 
 	let { data } = $props();
+
+	const toExternalUrl = (url) => {
+		if (typeof window !== 'undefined') {
+			window.location.href = url;
+		}
+	};
 </script>
 
 <AppMeta
@@ -31,11 +37,7 @@
 
 		<div class="s12 m5 left-align grid">
 			{#each data.item.launchLinks as platform}
-				<Button
-					text={platform.text}
-					onclick={() => (window.location = platform.url)}
-					class="s12 m6"
-				/>
+				<Button text={platform.text} onclick={() => toExternalUrl(platform.url)} class="s12 m6" />
 			{/each}
 		</div>
 	</section>
@@ -88,8 +90,5 @@
 	div > img:hover {
 		border: solid var(--qbot-red) 5px;
 		box-shadow: -5px -5px 0 var(--qbot-black) 5px 4px 0 var(--qbot-black);
-	}
-
-	.ss-wrapper {
 	}
 </style>
