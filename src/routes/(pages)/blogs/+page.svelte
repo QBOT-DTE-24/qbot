@@ -9,7 +9,7 @@
 	description="Get in touch with our latest updates and happenings."
 	url="https://qbot24.eu.cc"
 	banner="/img/qbot-banner.png"
-	keywords="qbot, qbot24, qbot dte 24, qbot-dte-24, dte24, dte, quintets, beeam, bayae, beeam/bayae, oteam, the corde dump"
+	keywords="qbot, qbot24, qbot dte 24, qbot-dte-24, dte24, dte, quintets, beeam, bayae, beeam/bayae, oteam, the core dump"
 />
 
 <main class="padding">
