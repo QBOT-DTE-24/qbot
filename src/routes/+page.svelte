@@ -27,9 +27,9 @@
 		<div class="large-space"></div>
 
 		<div id="btn-container" class="s12 center-align">
-			<Button text="Our Apps" onclick={() => goto('/projects')} />
-			<Button text="Blogs" onclick={() => goto('blogs')} />
-			<Button text="About Us" onclick={() => goto('/about')} />
+			<Button text="Our Apps" onclick={() => goto('/projects/')} />
+			<Button text="Blogs" onclick={() => goto('/blogs/')} />
+			<Button text="About Us" onclick={() => goto('/about/')} />
 		</div>
 	</section>
 

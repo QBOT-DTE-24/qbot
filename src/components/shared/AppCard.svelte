@@ -23,7 +23,7 @@
 			text="Get Now"
 			class="appbtn"
 			style="background-color: var(--qbot-white) !important; color: var(--qbot-black) !important; font-size: 2rem !important; padding: 0.3rem !important;"
-			onclick={() => goto(`/projects/${name.toLowerCase()}`)}
+			onclick={() => goto(`/projects/${name.toLowerCase()}/`)}
 		/>
 	</div>
 </article>

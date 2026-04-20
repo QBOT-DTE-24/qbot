@@ -75,7 +75,7 @@
 				<Button text="Github" onclick={toGithub} class="s12 m4" />
 				<Button text="Facebook" onclick={toFacebook} class="s12 m4" />
 
-				<Button text="Privacy & Policy" onclick={() => goto('/privacy')} class="s12 m4" />
+				<Button text="Privacy & Policy" onclick={() => goto('/privacy/')} class="s12 m4" />
 			</div>
 		</div>
 	</section>
