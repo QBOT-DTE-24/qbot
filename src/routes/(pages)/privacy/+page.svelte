@@ -1,7 +1,7 @@
 <script>
 	import AppMeta from '@/components/shared/AppMeta.svelte';
 	import QuteCard from '@/components/shared/QuteCard.svelte';
-	import VectorySlope from '@/components/shared/VectorySlope.svelte';
+	import VectorSlope from '@/components/shared/VectorSlope.svelte';
 </script>
 
 <AppMeta
@@ -46,7 +46,7 @@
 		/>
 	</section>
 
-	<VectorySlope />
+	<VectorSlope />
 </main>
 
 <style>
