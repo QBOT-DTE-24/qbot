@@ -33,7 +33,7 @@
 	<meta name="twitter:image" content={url} />
 
 	<!-- FAVICON -->
-	<link rel="icon" href={favicon} />
+	<link rel="shortcut icon" href={favicon} />
 
 	<!-- APP TITLE-->
 	<title>{title}</title>
