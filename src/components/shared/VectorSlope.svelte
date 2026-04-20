@@ -1,6 +1,6 @@
 <div
 	id="slope"
-	class="absolute inset-0 bg-red-600"
+	class="absolute inset-0 bg-red-950"
 	style="clip-path: polygon(0 70%, 100% 30%, 100% 100%, 0 100%);"
 ></div>
 

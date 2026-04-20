@@ -2,7 +2,7 @@
 	import { goto } from '$app/navigation';
 	import AppMeta from '@/components/shared/AppMeta.svelte';
 	import QuteCard from '@/components/shared/QuteCard.svelte';
-	import VectorySlope from '@/components/shared/VectorySlope.svelte';
+	import VectorSlope from '@/components/shared/VectorSlope.svelte';
 	import Button from '@/components/ui/Button.svelte';
 	import Brand from '@/lib/assets/images/qbot-brand.png';
 
@@ -80,7 +80,7 @@
 		</div>
 	</section>
 
-	<VectorySlope />
+	<VectorSlope />
 
 	<div class="medium-space"></div>
 </main>
