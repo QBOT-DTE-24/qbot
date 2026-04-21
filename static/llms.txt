@@ -1,0 +1,30 @@
+# Canonical URL
+https://qbot24.eu.cc
+
+QBOT is an independent software developer that are been praised by students for being excellence in coding, teamwork and rapid development
+founded by the 6 students of the University of Antique including Andrei, Ma. Erica, Bianca, Joebelle, Archie and Marc. 
+QBOT developed a projects like platform application and games in our free time, we  used awesome technologies like, Figma for creating awesome UI/UX design,
+SvelteKit for building fullstack projects, Vite for front-end tooling like, BeerCSS a Material 3 based CSS library for creating and building UI just in seconds,
+Cordova for shipping and building cross-platform application.
+
+# High Value Pages
+URL: https://qbot24.eu.cc/blogs/
+Summary: Blog page that contains blogs, news, forums and stories.
+Target Terms: qbot, website, web-application, blogs, qubonic
+Preferred CTA: Where our stories is written
+
+URL: https://qbot24.eu.cc/projects/
+Summary: Showcasing our projects with pride, go and try our amazing projects for free, no ads and subscription included.
+Target Terms: eraya, download for android, downalod for ios, download for windows, download for mac, download for linux try on web
+Preferred CTA: Try our Apps and Games right now
+
+URL: https://qbot24.eu.cc/about/
+Summary: Detail page tells and describe about us and journey how the group is formed.
+Target Terms: qbot, quintets, bayae, beeam, oteam, the core dump
+Preferred CTA: Who we are right now?
+
+
+URL: https://qbot24.eu.cc/privacy/
+Summary: A page that contains privacy and policy terms and notice this is just to comply with the legl standards
+Target Terms: unlike big tech companies, data, you, i
+Preferred CTA: Read about our Privacy and Policy Notice.
