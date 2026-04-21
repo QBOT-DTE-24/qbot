@@ -7,8 +7,10 @@
 </script>
 
 <nav class="appbar top">
-	<div class="max">
-		<img src={Brand} alt="brand" width={240} />
+	<div class="min">
+		<a href="/">
+			<img src={Brand} alt="brand" width={240} />
+		</a>
 	</div>
 
 	<div class="max right-align">

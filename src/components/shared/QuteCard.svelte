@@ -4,7 +4,7 @@
 
 <div class={className} {...props}>
 	<article>
-		<p>{text}</p>
+		<p>{@html text}</p>
 	</article>
 </div>
 
@@ -12,6 +12,7 @@
 	p {
 		font-family: Bebas Neue Regular;
 		font-size: 24px;
+		letter-spacing: 1px;
 		color: var(--qbot-white);
 	}
 
@@ -25,7 +26,7 @@
 	}
 
 	div > article > p {
-		word-break: break-all;
-		text-wrap-mode: wrap;
+		text-align: center;
+		word-break: keep-all;
 	}
 </style>
