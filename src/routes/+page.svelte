@@ -22,6 +22,7 @@
 
 		<div class="s12 center-align padding">
 			<h1>We made cool software projects in our free time!</h1>
+			<h2>The QBOT Project is underway!</h2>
 		</div>
 
 		<div class="large-space"></div>

@@ -6,24 +6,23 @@
 </script>
 
 <article class="appcard grid {className}" {...props}>
-	<div class="s12">
+	<div class="s3">
 		<center><img src={image} alt={name} width={256} /></center>
 	</div>
 
-	<div class="s12 left-align">
+	<div class="s9 left-align">
 		<h2>{name}</h2>
 		<div>{version}</div>
 	</div>
 
-	<div class="s12 m4 small-space"></div>
-	<div class="s12 m4 small-space"></div>
+	<div class="s12 m8 small-space"></div>
 
 	<div class="center-align s12 m4">
 		<Button
 			text="Get Now"
 			class="appbtn"
 			style="background-color: var(--qbot-white) !important; color: var(--qbot-black) !important; font-size: 2rem !important; padding: 0.3rem !important;"
-			onclick={() => goto(`/projects/${name.toLowerCase()}/`)}
+			onclick={() => goto(`/projects/${name.toLowerCase()}`)}
 		/>
 	</div>
 </article>
@@ -41,7 +40,7 @@
 	}
 
 	h2 {
-		font-size: 4.6rem;
+		font-size: 3.6rem;
 		color: var(--qbot-white);
 	}
 

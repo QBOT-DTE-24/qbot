@@ -5,7 +5,7 @@ export const load = ({ params }) => {
 	const item = items.find((i) => i.name.toLocaleLowerCase() === params.name);
 
 	if (!item) {
-		throw error(404, 'Item not found');
+		throw error(404, 'ITEM NOT FOUND');
 	}
 
 	return { item };

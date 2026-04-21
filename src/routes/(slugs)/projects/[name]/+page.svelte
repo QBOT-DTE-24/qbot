@@ -1,5 +1,6 @@
 <script>
 	import AppMeta from '@/components/shared/AppMeta.svelte';
+	import QuteCard from '@/components/shared/QuteCard.svelte';
 	import Button from '@/components/ui/Button.svelte';
 
 	let { data } = $props();
@@ -32,7 +33,8 @@
 			<h1>{data.item.title}</h1>
 			<div>{data.item.version}</div>
 			<div class="medium-space"></div>
-			<p>{data.item.description}</p>
+			<QuteCard text={data.item.description} />
+			<div class="large-space"></div>
 		</div>
 
 		<div class="s12 m5 left-align grid">

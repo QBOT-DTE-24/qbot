@@ -5,6 +5,7 @@
 	import VectorSlope from '@/components/shared/VectorSlope.svelte';
 	import Button from '@/components/ui/Button.svelte';
 	import Brand from '@/lib/assets/images/qbot-brand.png';
+	import { persons } from '@/types/persons';
 
 	const toGithub = () => {
 		if (typeof window !== 'undefined') {
@@ -56,12 +57,13 @@
 			<div class="s12">
 				<h2>Our Members</h2>
 			</div>
-			<QuteCard text="Andrei Isaiah Macabanti (Project Manager)" class="center-align s12 m4" />
-			<QuteCard text="Ma. Erica Manzan (System Analyst & QA)" class="center-align s12 m4 l4" />
-			<QuteCard text="Pia Bianca Tuna (Tester & QA)" class="center-align s12 m4 l4" />
-			<QuteCard text="Joebelle James Praba (UI/UX Designer)" class="center-align s12 m4 l4" />
-			<QuteCard text="Archie Jordan Varon (PR)" class="center-align s12 m4 l4" />
-			<QuteCard text="Marc Joseff Umiten (Programmer)" class="center-align s12 m4 l4" />
+			{#each persons as person}
+				<QuteCard
+					key={person}
+					text="{person.name} <br> <small style='color: var(--qbot-black)'>({person.role})</small>"
+					class="center-align s12 m4 l4"
+				/>
+			{/each}
 		</div>
 
 		<div class="s12 m6 medium-space"></div>
